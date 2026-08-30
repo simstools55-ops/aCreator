@@ -1,0 +1,193 @@
+{
+  "format": "SIMS_ARTICLE_CREATOR_KNOWLEDGE_MANIFEST_V1",
+  "manifest_version": "1.3.0",
+  "entries": [
+    {
+      "id": "K-POLICY",
+      "version": "1.0.0",
+      "file": "KNOWLEDGE_POLICY.md",
+      "category": "core",
+      "priority": 0,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Product knowledge policy",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-SAFETY",
+      "version": "1.0.0",
+      "file": "SAFETY_AND_YMYL_KNOWLEDGE.md",
+      "category": "safety",
+      "priority": 10,
+      "status": "active",
+      "applies_when": "ymyl_or_risk",
+      "purpose": "Safety and YMYL escalation",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-EVIDENCE",
+      "version": "1.0.0",
+      "file": "EVIDENCE_AND_CLAIM_KNOWLEDGE.md",
+      "category": "evidence",
+      "priority": 20,
+      "status": "active",
+      "applies_when": "claims_present",
+      "purpose": "Claim and source handling",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-INTENT",
+      "version": "1.0.0",
+      "file": "SEARCH_INTENT_KNOWLEDGE.md",
+      "category": "editorial",
+      "priority": 30,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Search intent classification",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-READER",
+      "version": "1.0.0",
+      "file": "READER_MODEL_KNOWLEDGE.md",
+      "category": "editorial",
+      "priority": 40,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Reader problem and outcome model",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-HELPFUL",
+      "version": "1.0.0",
+      "file": "HELPFUL_CONTENT_KNOWLEDGE.md",
+      "category": "quality",
+      "priority": 50,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Reader-first content quality",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-COVERAGE",
+      "version": "1.0.0",
+      "file": "COVERAGE_AND_COMPLETENESS_KNOWLEDGE.md",
+      "category": "editorial",
+      "priority": 60,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Coverage planning",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-ORIGINALITY",
+      "version": "1.0.0",
+      "file": "ORIGINALITY_AND_DIFFERENTIATION_KNOWLEDGE.md",
+      "category": "quality",
+      "priority": 70,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Legitimate differentiation",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-SEO",
+      "version": "1.2.0",
+      "file": "SEO_FOUNDATIONS_KNOWLEDGE.md",
+      "category": "seo",
+      "priority": 80,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "SEO foundations",
+      "updated_at": "2026-08-01"
+    },
+    {
+      "id": "K-READABILITY",
+      "version": "1.0.0",
+      "file": "READABILITY_AND_EDITORIAL_STYLE_KNOWLEDGE.md",
+      "category": "style",
+      "priority": 90,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Editorial readability",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-INTERNAL-LINK",
+      "version": "1.2.0",
+      "file": "INTERNAL_LINK_KNOWLEDGE.md",
+      "category": "links",
+      "priority": 100,
+      "status": "active",
+      "applies_when": "internal_links_enabled",
+      "purpose": "Internal link planning",
+      "updated_at": "2026-08-01"
+    },
+    {
+      "id": "K-MONETIZATION",
+      "version": "1.0.0",
+      "file": "MONETIZATION_BALANCE_KNOWLEDGE.md",
+      "category": "monetization",
+      "priority": 110,
+      "status": "active",
+      "applies_when": "monetization_enabled",
+      "purpose": "Monetization balance",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-FRESHNESS",
+      "version": "1.1.0",
+      "file": "FRESHNESS_AND_MAINTENANCE_KNOWLEDGE.md",
+      "category": "evidence",
+      "priority": 25,
+      "status": "active",
+      "applies_when": "time_sensitive_claims",
+      "purpose": "Freshness planning",
+      "updated_at": "2026-08-01"
+    },
+    {
+      "id": "K-EEAT",
+      "version": "1.0.0",
+      "file": "EEAT_TRANSPARENCY_KNOWLEDGE.md",
+      "category": "quality",
+      "priority": 55,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "E-E-A-T transparency",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-BLOG-VOICE",
+      "version": "1.0.0",
+      "file": "BLOG_PROFILE_AND_AUTHOR_VOICE.md",
+      "category": "style",
+      "priority": 85,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "Blog profile and individual blogger voice",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-AFFILIATE",
+      "version": "1.0.0",
+      "file": "AFFILIATE_ARTICLE_KNOWLEDGE.md",
+      "category": "monetization",
+      "priority": 105,
+      "status": "active",
+      "applies_when": "affiliate_article",
+      "purpose": "Affiliate URL, review and CTA rules",
+      "updated_at": "2026-07-19"
+    },
+    {
+      "id": "K-AI-OVERVIEW",
+      "version": "1.0.0",
+      "file": "AI_OVERVIEW_STRUCTURE_KNOWLEDGE.md",
+      "category": "seo",
+      "priority": 82,
+      "status": "active",
+      "applies_when": "always",
+      "purpose": "AI Overview and citation-ready answer structure",
+      "updated_at": "2026-08-01"
+    }
+  ]
+}

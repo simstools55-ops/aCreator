@@ -1,0 +1,24 @@
+{
+  "shared_version": "3.3.0",
+  "snapshot_for": "CREATOR",
+  "platform_version": "1.0",
+  "included_paths": [
+    "contracts/common/common-envelope-v1.schema.json",
+    "contracts/creator",
+    "contracts/platform/publication-result-v1.schema.json",
+    "contracts/platform/platform-error-v1.schema.json",
+    "enums/product-code.json",
+    "enums/result-status.json",
+    "enums/treatment-type.json",
+    "enums/case-status.json",
+    "enums/priority.json"
+  ],
+  "excluded_products": [
+    "DOCTOR_RUNTIME",
+    "WRITER_RUNTIME",
+    "MERGE_RUNTIME"
+  ],
+  "compatible_product_versions": [
+    "1.6.x"
+  ]
+}

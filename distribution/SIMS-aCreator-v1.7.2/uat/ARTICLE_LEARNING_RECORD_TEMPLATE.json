@@ -1,0 +1,47 @@
+{
+  "format": "SIMS_ARTICLE_LEARNING_RECORD_V1",
+  "record_version": "1.2.0",
+  "record_status": "PROVISIONAL",
+  "record_id": "",
+  "execution_id": "",
+  "article_id": "",
+  "generated_at": "",
+  "article_context": {
+    "main_keyword": "",
+    "article_type": "",
+    "monetization": "",
+    "platform": "",
+    "blog_profile_id": null
+  },
+  "system_evaluation": {
+    "publication_status": "",
+    "overall_score": 0,
+    "warnings": [],
+    "successful_elements": [],
+    "suspected_defects": [],
+    "predicted_citation_sections": []
+  },
+  "human_review": {
+    "publish_ready": null,
+    "published": null,
+    "manual_edit_minutes": null,
+    "edit_level": null,
+    "edited_components": [],
+    "dimension_scores": {
+      "seo_quality": null,
+      "blogger_voice": null,
+      "reader_satisfaction": null,
+      "factual_reliability": null,
+      "monetization_quality": null,
+      "publish_workability": null
+    },
+    "reviewer_notes": "",
+    "citation_observations": []
+  },
+  "diagnosis": {
+    "confirmed_defects": [],
+    "root_cause_candidates": [],
+    "recommended_changes": [],
+    "asset_change_candidates": []
+  }
+}

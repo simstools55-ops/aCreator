@@ -1,0 +1,74 @@
+{
+  "main_keyword": "ピアノ講座 口コミ",
+  "supporting_keywords": [
+    "Windows11 スクショ どこ",
+    "スクリーンショット 保存場所 変更"
+  ],
+  "site_context": {
+    "site_name": "サンプルブログ",
+    "site_category": "Windows 11",
+    "target_audience": "操作に不慣れな一般ユーザー",
+    "existing_categories": [
+      "Windows 11"
+    ]
+  },
+  "article_goal": "保存先の確認と変更方法を初心者向けに解決する",
+  "reference_date": "2026-07-19",
+  "source_materials": [],
+  "first_party_experience": {
+    "available": false,
+    "details": null,
+    "allowed_usage": "NONE"
+  },
+  "internal_link_candidates": [],
+  "monetization_context": {
+    "enabled": true,
+    "model": [
+      "ADSENSE"
+    ],
+    "products_or_services": [],
+    "disclosure_required": false
+  },
+  "style_preferences": {
+    "tone": "やさしく具体的",
+    "reader_level": "BEGINNER",
+    "target_length": 3500,
+    "format": "HTML"
+  },
+  "constraints": {
+    "must_include": [
+      "保存先の初期場所",
+      "保存先を変更する方法"
+    ],
+    "must_avoid": [
+      "架空の操作体験"
+    ],
+    "prohibited_claims": [],
+    "ymyl_mode": "AUTO"
+  },
+  "product_reference_url": "https://example.com/piano-course",
+  "affiliate_url": "https://example.com/affiliate/piano-course",
+  "blog_profile": {
+    "site_name": "個人ブログ",
+    "theme": "大人の学び",
+    "target_reader": "趣味でピアノを始めたい大人",
+    "tone": "親しみやすく誠実",
+    "revenue_model": "AFFILIATE",
+    "publishing_platform": "WORDPRESS",
+    "avoid_expressions": [
+      "絶対に上達する"
+    ],
+    "cta_policy": "押し売りを避け、判断材料の後に案内する"
+  },
+  "author_profile": {
+    "reader_approach": "初心者にも分かりやすく説明する",
+    "expertise_level": "GENERAL_BLOGGER",
+    "editorial_principles": [
+      "メリットとデメリットを併記",
+      "最終判断は読者に委ねる"
+    ],
+    "prohibited_experience_claims": [
+      "未提供の購入・受講体験"
+    ]
+  }
+}

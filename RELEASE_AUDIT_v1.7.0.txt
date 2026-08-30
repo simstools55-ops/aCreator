@@ -1,0 +1,14 @@
+SIMS Article Creator v1.7.0 Release Audit
+Date: 2026-08-29
+
+Version policy: MINOR
+Reason: Personal Knowledge separation from distributable Article Creator package.
+
+Checks
+- Full standard test suite: PASS — 10 passed
+- Known tenant/blog markers: PASS
+- Embedded tenant-specific learning registries cleared: PASS
+- Product version: 1.7.0
+- Shared compatibility baseline: 3.3.0
+- Creator contracts/generation logic: preserved
+- Article Doctor / SBM handoff: unchanged

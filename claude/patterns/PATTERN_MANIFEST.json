@@ -1,0 +1,102 @@
+{
+  "format": "SAC_PATTERN_MANIFEST_V1",
+  "version": "1.3.0",
+  "patterns": [
+    {
+      "id": "HOWTO",
+      "name": "HowTo",
+      "file": "howto.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "TROUBLESHOOTING",
+      "name": "Troubleshooting",
+      "file": "troubleshooting.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "COMPARISON",
+      "name": "Comparison",
+      "file": "comparison.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "BUYING_GUIDE",
+      "name": "Buying Guide",
+      "file": "buying_guide.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "DEFINITION",
+      "name": "Definition",
+      "file": "definition.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "REVIEW",
+      "name": "Review",
+      "file": "review.md",
+      "status": "ACTIVE",
+      "version": "2.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "LOCAL_GUIDE",
+      "name": "Local Guide",
+      "file": "local_guide.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "SEASONAL",
+      "name": "Seasonal / Freshness",
+      "file": "seasonal.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": true
+    },
+    {
+      "id": "SECTION_DEPTH_WEIGHTING",
+      "name": "Section Depth Weighting",
+      "file": "section-depth-weighting-pattern.md",
+      "status": "ACTIVE",
+      "version": "1.1.0",
+      "allowed_as_primary": false
+    },
+    {
+      "id": "MULTI_CONCEPT_RELATIONSHIP",
+      "name": "Multi-Concept Relationship Diagram",
+      "file": "multi-concept-relationship-diagram-pattern.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": false
+    },
+    {
+      "id": "COPY_TEMPLATE",
+      "name": "Copy Template",
+      "file": "copy-template-pattern.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": false
+    },
+    {
+      "id": "CITATION_CANDIDATE",
+      "name": "Citation Candidate",
+      "file": "citation-candidate-pattern.md",
+      "status": "ACTIVE",
+      "version": "1.0.0",
+      "allowed_as_primary": false
+    }
+  ]
+}

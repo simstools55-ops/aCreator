@@ -1,0 +1,24 @@
+{
+  "package_name": "SIMS-Article-Creator-Claude",
+  "package_version": "1.7.0",
+  "product_code": "CREATOR",
+  "compatible_product_versions": [
+    "1.6.x"
+  ],
+  "platform_compatibility": "1.x",
+  "shared_version": "3.3.0",
+  "contract_versions": {
+    "creator_treatment_request": "1.0",
+    "creator_treatment_result": "1.0",
+    "legacy_article_creator": "1.4.0"
+  },
+  "required_files": [
+    "CLAUDE_PROJECT_INSTRUCTIONS.md",
+    "runtime/PLATFORM_TREATMENT_RUNTIME.md",
+    "contracts/platform/creator-treatment-request-v1.schema.json",
+    "contracts/platform/creator-treatment-result-v1.schema.json",
+    "shared/platform/SNAPSHOT_MANIFEST.json"
+  ],
+  "removed_files": [],
+  "generated_at": "2026-08-05T00:00:00+09:00"
+}

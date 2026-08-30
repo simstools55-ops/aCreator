@@ -1,0 +1,16 @@
+SIMS Article Creator v1.7.1 Release Audit
+Date: 2026-08-29
+
+Version policy: PATCH
+Reason: synchronize current version surfaces after the formally issued v1.7.0 package.
+
+Checks
+- Full standard test suite: PASS — 10 passed
+- Current Project Instructions header: PASS — v1.7.1
+- Current product/package/deployment identity: PASS — v1.7.1
+- Known tenant/blog markers: PASS
+- Personal Knowledge separation from v1.7.0: preserved
+- Shared compatibility baseline: 3.3.0
+- Creator runtime/contracts/handoffs: unchanged
+
+Historical v1.6.2 labels intentionally retained only where they describe the historical v1.6.2 release or the Platform Treatment feature introduced in that release.

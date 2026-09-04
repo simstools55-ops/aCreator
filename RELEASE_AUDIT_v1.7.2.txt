@@ -1,0 +1,13 @@
+aCreator v1.7.2 Internal Consistency Audit
+Package: SIMS-aCreator
+Product Version: 1.7.2
+Shared Version: 3.3.0
+Audited At: 2026-09-04T10:42:05+09:00
+
+Result: PASS
+- VERSION synchronized to 1.7.2.
+- PRODUCT_IDENTITY synchronized to 1.7.2.
+- Claude package/deployment manifests synchronized to 1.7.2 where applicable.
+- Current README/update-guide version labels synchronized.
+- Historical release notes and feature-version headings preserved.
+- FILE_MANIFEST and SHA256SUMS regenerated after synchronization.

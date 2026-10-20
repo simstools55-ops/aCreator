@@ -1,11 +1,11 @@
-# aCreator v1.7.2
+# aCreator v2.0.0
 
 # aCreator
 
 aCreatorは、メインキーワードからEditorial Brief、Pattern、Coverage、Evidence Plan、記事本文、編集審査、公開判定、構造化JSONを生成する独立製品です。
 
 ## 正式バージョン
-`v1.7.2`
+`v2.0.0`
 
 ## 中核フロー
 入力検証 → Keyword Intelligence → Search Intent → Reader Model → Pattern Selection / Composer → Risk & Evidence → Editorial Brief → Coverage Map → Blueprint → Writing → Editorial Review → Publication Gate → JSON

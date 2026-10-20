@@ -1,6 +1,0 @@
-{
-  "format": "SIMS_EDITORIAL_LEARNING_RECORD_V1",
-  "record_version": "1.0.0",
-  "status": "LEGACY_COMPATIBILITY",
-  "note": "v0.7.1以降はARTICLE_LEARNING_RECORD_TEMPLATE.jsonを使用してください。"
-}

@@ -4,10 +4,10 @@
   "repository_name": "SIMS-Article-Creator-Claude",
   "repository_type": "CLAUDE_PACKAGE",
   "runtime": "CLAUDE_PROJECT",
-  "package_version": "1.7.2",
-  "product_compatibility": "1.7.2",
+  "package_version": "2.0.0",
+  "product_compatibility": "2.0.0",
   "platform_compatibility": "1.x",
   "shared_version": "3.3.0",
-  "notes": "v1.7.2 consolidates user-facing product naming as aCreator and SIMS Manager while preserving internal contracts, repository identifiers, and machine-facing SIMS_ARTICLE_CREATOR_* compatibility.",
-  "release_status": "PATCH"
+  "notes": "v2.0.0 Claude deployment consolidation; runtime contracts preserved from 1.7.2. Requires live Claude acceptance testing.",
+  "release_status": "UAT_CANDIDATE"
 }

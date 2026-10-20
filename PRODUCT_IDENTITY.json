@@ -5,9 +5,9 @@
   "repository_type": "PRODUCT",
   "platform": "SIMS Editorial Platform",
   "platform_compatibility": "1.x",
-  "current_version": "1.7.2",
+  "current_version": "2.0.0",
   "shared_version": "3.3.0",
-  "product_compatibility": "1.7.2",
-  "release_status": "PATCH",
-  "notes": "v1.7.2 consolidates user-facing product naming as aCreator and SIMS Manager while preserving internal contracts, repository identifiers, and machine-facing SIMS_ARTICLE_CREATOR_* compatibility."
+  "product_compatibility": "2.0.0",
+  "release_status": "UAT_CANDIDATE",
+  "notes": "v2.0.0 Claude deployment consolidation; runtime contracts preserved from 1.7.2. Requires live Claude acceptance testing."
 }

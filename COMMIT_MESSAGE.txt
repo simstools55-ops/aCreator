@@ -1,1 +1,1 @@
-chore(acreator): prepare v2.0.0 audited Claude deployment and seven-file context
+fix(acreator): audit seven-file context against v1.7.2 canonical and align v2.0.1 deployment

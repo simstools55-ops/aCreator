@@ -1,0 +1,1 @@
+aCreator v2.0.1: 212 mapped source sections compared against v1.7.2 Canonical; SHA256 and complete embedded text match. Claude instruction unchanged except version. Historical metadata in context 07 is explicitly non-operative. Claude UAT pending.

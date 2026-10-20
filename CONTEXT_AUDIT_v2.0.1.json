@@ -1,0 +1,9 @@
+{
+  "version": "2.0.1",
+  "source": "v1.7.2 Canonical",
+  "source_sections": 212,
+  "sha256_mismatches": 0,
+  "embedded_text_mismatches": 0,
+  "context_files": 7,
+  "claude_uat": "NOT_RUN"
+}

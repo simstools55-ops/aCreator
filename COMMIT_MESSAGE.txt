@@ -1,1 +1,5 @@
-fix(acreator): audit seven-file context against v1.7.2 canonical and align v2.0.1 deployment
+fix(aCreator): enforce BOS-compatible article JSON output gate (v2.0.2)
+
+- Require complete article.body_html for publishable results
+- Require structured publication_gate and separate learning records
+- Block unsupported articles without fabricated body text

@@ -325,8 +325,7 @@
           ]
         },
         "body_html": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         }
       }
     },
@@ -940,5 +939,55 @@
         }
       }
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "publication_gate": {
+            "properties": {
+              "status": {
+                "const": "BLOCKED"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          }
+        },
+        "required": [
+          "publication_gate"
+        ]
+      },
+      "then": {
+        "properties": {
+          "article": {
+            "properties": {
+              "body_html": {
+                "const": ""
+              }
+            },
+            "required": [
+              "body_html"
+            ]
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "article": {
+            "properties": {
+              "body_html": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "body_html"
+            ]
+          }
+        }
+      }
+    }
+  ]
 }

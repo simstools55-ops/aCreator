@@ -1,5 +1,1 @@
-fix(aCreator): enforce BOS-compatible article JSON output gate (v2.0.2)
-
-- Require complete article.body_html for publishable results
-- Require structured publication_gate and separate learning records
-- Block unsupported articles without fabricated body text
+fix(acreator): support evidence-based blogging without first-party tests and align BLOCKED schema

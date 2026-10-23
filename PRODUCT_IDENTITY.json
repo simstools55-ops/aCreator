@@ -9,5 +9,5 @@
   "shared_version": "3.3.0",
   "product_compatibility": "2.0.2",
   "release_status": "UAT_CANDIDATE",
-  "notes": "v2.0.1 Claude deployment consolidation; runtime contracts preserved from 1.7.2. Requires live Claude acceptance testing."
+  "notes": "v2.0.2 BOS-compatible JSON output gate; based on v2.0.1; Claude acceptance testing pending."
 }

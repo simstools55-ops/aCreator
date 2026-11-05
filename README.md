@@ -1,3 +1,15 @@
+# SIMS aCreator v2.1.0 — Distribution release
+
+**Current version:** v2.1.0 / Shared Editorial Knowledge v3.6.5.
+
+**Claude deployment:** `aCreator-v2.1.0-Claude.zip` contains one Project Instructions file and seven context files. Upload those eight files to the appropriate Claude Project areas; do not upload the instruction text from the Repository as an additional copy.
+
+**T08 RC8 scope:** distribution metadata and audit manifest synchronization only. The Claude Project Instructions and seven context files are byte-identical to RC7. RC7 MOBILE_STORY regression: Coverage M01–M14 retained; 253 sentences, four over-limit operation-path exceptions, zero unresolved over-limit sentences. Standalone HTML versus JSON byte-level equivalence and external factual checks are not release-certified.
+
+**Release status:** RELEASED_WITH_DOCUMENTED_LIMITATION; standalone HTML versus article.body_html byte-level equivalence was not independently established. `PASS_WITH_WARNING` on the sample article is not a product release approval.
+
+## Historical release documentation follows (not current instructions)
+
 ## v2.0.7 — MOBILE_STORY / emoji_policy
 
 Adds 4th reading mode and independent 3-level emoji preference; output JSON contract unchanged.

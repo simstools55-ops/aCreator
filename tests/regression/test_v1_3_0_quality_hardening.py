@@ -5,7 +5,7 @@ CLAUDE=ROOT/'claude'
 
 def test_versions():
     assert tuple(map(int, (ROOT/'VERSION').read_text().strip().split('.'))) >= (1,3,0)
-    assert (ROOT/'SHARED_VERSION').read_text().strip() == '3.3.0'
+    assert tuple(map(int, (ROOT/'SHARED_VERSION').read_text().strip().split('.'))) >= (3,3,0)
     assert tuple(map(int, (CLAUDE/'VERSION').read_text().strip().split('.'))) >= (1,3,0)
     assert (ROOT/'shared/VERSION').read_text().strip()=='2.5.0'
 

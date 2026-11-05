@@ -1,0 +1,14 @@
+{
+  "product_version": "2.1.0",
+  "shared_version": "3.6.5",
+  "release_status": "RELEASED_WITH_DOCUMENTED_LIMITATION",
+  "tests": {
+    "t08_mobile_sentence_cap": "PASS",
+    "coverage": "PASS",
+    "learning_record": "PASS",
+    "package_integrity": "PASS",
+    "standalone_html_json_byte_equality": "NOT_VERIFIED"
+  },
+  "sample_article_publication_gate": "PASS_WITH_WARNING",
+  "claude_payload_changed_from_rc2": false
+}

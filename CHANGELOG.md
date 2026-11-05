@@ -1,3 +1,28 @@
+## v2.1.0 — distribution release (2026-11-05)
+- Promoted audited T08 RC2 payload without modifying Claude runtime or contexts.
+- Documented limitation: standalone HTML/article JSON byte equality not independently verified; content-level review passed.
+- Article publication warnings remain subject to editorial fact checking.
+
+## v2.1.0 RC2 — 2026-11-05
+- Correct README Claude ZIP filename and release candidate designation.
+- Refresh SHA-256 manifest. Runtime and Claude payload unchanged.
+- Production release remains on HOLD pending exact standalone HTML/JSON comparison.
+
+## v2.1.0 — T08 Release Candidate (2026-11-05)
+- Promote T08 RC9 audited candidate to v2.1.0 version identity.
+- No behavioral changes to MOBILE_STORY policy; v2.0.8 RC7 test results retained as regression evidence.
+- Release candidate pending final production approval; article publication warnings remain separate.
+
+## v2.0.8 T08 RC8 — 2026-11-05 (UAT candidate)
+- Correct current RC metadata in README and PRODUCT_IDENTITY.
+- Add a reproducible SHA-256 repository file manifest.
+- Keep RC7 Project Instructions and Claude contexts byte-for-byte unchanged.
+- Production release remains HOLD; article factual verification is separate.
+
+## v2.0.8 T08 RC7 — 2026-11-05 (UAT)
+- Distinguish raw sentence-cap violations, approved indivisible exceptions, and unresolved violations.
+- Preserve M01–M14 coverage and legacy DESKTOP_FIRST behavior.
+
 ## v2.0.7
 - MOBILE_STORY 24-character semantic prose lines and HTML line-break QA.
 - Align Claude distribution and JSON product version; Shared Knowledge v3.6.4.
@@ -15,6 +40,8 @@ Adds 4th reading mode and independent 3-level emoji preference; output JSON cont
 - Consolidated user-facing naming to aCreator / SIMS Manager; internal contracts unchanged.
 
 # Changelog
+
+- T08 RC9: Correct stale RC6 deployment guidance in claude/PRODUCT_IDENTITY.json; regenerate SHA-256 manifest. No Claude runtime changes.
 
 ## [1.6.0] - 2026-08-05
 - Adopted SIMS Editorial Platform treatment contracts.

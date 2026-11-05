@@ -1,11 +1,9 @@
-# Reading Device & Emoji Policy Contract
+# Reading Device Policy Contract — v3.6.5
 
-Canonical field: `reading_device_policy` (string). Accepted values: `MOBILE_STORY`, `MOBILE_FIRST`, `DESKTOP_FIRST`, `BALANCED`; default and unknown-value fallback: `BALANCED`.
+`reading_device_policy`: new article choices `DESKTOP_FIRST` (legacy behavior) or `MOBILE_STORY`; missing, unknown, historical `BALANCED`/`MOBILE_FIRST` -> legacy behavior for new articles. Do not rewrite historical stored values.
 
-Independent optional field: `emoji_policy` (string). Accepted values: `NONE`, `SPARING`, `EXPRESSIVE`; default and unknown-value fallback: `NONE`. Do not infer emoji mode from reading-device mode.
+`mobile_story_max_chars`: optional integer 24–40, default 28, applicable only to `MOBILE_STORY`.
 
-MOBILE_STORY has a maximum of 24 displayed characters per ordinary prose line; other modes have no cap.
+`emoji_policy`: `NONE` or `SPARING` for `MOBILE_STORY`, default `NONE`; historical `EXPRESSIVE` is not selectable in the new UI. Article-level recorded style wins for revisions; absent metadata means preserve existing presentation, not infer mobile story.
 
-These are **advisory editorial preferences**, not new Case statuses, ranking factors, or required fields in existing article output schemas. SBM owns the site settings and change history. Consuming products use `knowledge/reading-device-editorial-policy.md` for editorial behavior.
-
-Never initiate a bulk rewrite, monitoring reset, or automatic publication because of a policy change. Preserve existing approval gates, evidence requirements, and product-specific responsibility boundaries.
+These are editorial controls, not new case statuses or mandatory additions to existing JSON output schemas. Preserve existing validation, approval and publication gates. No user CSS required.

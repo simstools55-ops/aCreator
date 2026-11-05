@@ -5,9 +5,9 @@
   "repository_type": "PRODUCT",
   "platform": "SIMS Editorial Platform",
   "platform_compatibility": "1.x",
-  "current_version": "2.0.5",
-  "shared_version": "3.6.4",
-  "product_compatibility": "2.0.5",
-  "release_status": "UAT_CANDIDATE",
-  "notes": "Reading device editorial policy (Shared Knowledge v3.6.2); existing article JSON contracts unchanged."
+  "current_version": "2.1.0",
+  "shared_version": "3.6.5",
+  "product_compatibility": "2.1.0",
+  "release_status": "RELEASED_WITH_DOCUMENTED_LIMITATION",
+  "notes": "T08 functional regression PASS, package integrity PASS. Standalone HTML vs article.body_html byte-for-byte equality NOT VERIFIED; article factual warnings are separate publication concerns."
 }

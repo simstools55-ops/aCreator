@@ -1,65 +1,13 @@
-# Reading Device Editorial Policy — SIMS Shared Knowledge
+# Reading Device Editorial Policy — v3.6.5 (T08)
 
-## Scope and contract
+## Scope
+For NEW aCreator articles only two selectable styles exist: `DESKTOP_FIRST` (legacy writing behavior, unchanged) and `MOBILE_STORY` (new optional style). PC-first output is ordinary responsive HTML, not PC-only.
 
-SIMS Manager がサイト単位で指定する `reading_device_policy` は `MOBILE_STORY` / `MOBILE_FIRST` / `DESKTOP_FIRST` / `BALANCED` の4値。未指定・空値・未知値は `BALANCED` として安全に解釈し、診断や記事生成を停止しない。値は記事の閲覧・編集上の優先方針であり、読者端末の制限や検索順位の保証ではない。ただし MOBILE_STORY に限り本文の1行最大24文字の執筆制約を適用する。
+## Backward compatibility
+Missing/unknown values and historical `BALANCED` or `MOBILE_FIRST` select the legacy writing behavior for new content. Historical values remain readable as data; do not bulk rewrite existing articles. No style setting overrides facts, search intent, safety, approval or publication gates.
 
-優先順位：検証済み事実・検索意図・安全性・公開整合性・既存記事の検索評価と収益保護 ＞ 閲覧環境に応じた表現調整。端末設定を理由に未検証情報を追加しない。
+## MOBILE_STORY
+Use Answer First + Story. Narrative intensity depends on intent: HOW_TO light, comparison moderate, worry/experience strong. Never invent personal experience. `mobile_story_max_chars` accepts integer 24–40, default 28. Count visible characters in each intentionally composed prose segment (not HTML tags); this is an editorial maximum, not a physical-screen-width guarantee. Keep headings, URLs, code, and indivisible UI labels accurate and document exceptions. Prefer semantic paragraphs and natural browser wrapping; avoid gratuitous `<br>` and do not require user CSS. `emoji_policy` supports `NONE` (default) and `SPARING` only for this style; never require emoji or insert them in headings, instructions or safety warnings.
 
-## Shared baseline (all modes)
-
-- 導入は読者の質問に先に答え、見出しは内容が予測できる具体性を持たせる。
-- 端末によらずレスポンシブで読める文章・表・画像・リンクにする。文字サイズや行数を固定しない。
-- 重要な操作・条件・例外を省略しない。見かけの短文化のために情報を失わない。
-- 広告・リンクの配置は読者の理解と公開媒体の制約を優先し、クリックや順位の効果を保証しない。
-
-## MOBILE_STORY（スマホ特化・縦スクロール型）
-
-- 結論・解決策を冒頭に置く。読者への問いかけや短い語りかけを適度に用い、縦スクロールで理解できる文章のリズムを作る。
-- **本文の通常文章は、表示上の1行を最大24文字として執筆する。推奨は12〜20文字。** HTMLタグ・属性を文字数に含めず、表示文字（日本語・英数字・句読点・絵文字等）を1文字単位で数える。改行位置は句読点・文節・意味の切れ目を優先し、24文字で機械的に分割しない。24文字を超える場合は、自然な位置で必ず改行する。
-- **行内改行と段落間の余白を区別する。** 同一の意味段落内の改行には必要最小限の `<br>` を使い、話題転換・結論強調・操作の前後では別の `<p>` に分ける。段落間は媒体の標準余白を基本とし、より広い余白が必要な箇所はCMS側の段落余白設定・許容CSSで表現する。空の `<p>` や `<br><br>` の連続、不可視文字による空白作成はしない。
-- **1段落は原則1〜3行**。必要な説明を省かず、自然な改行で縦スクロールのリズムを作る。見出し、表、URL、パス、コマンド、分割不能なUI名称・固有名詞は24文字制限の例外とし、正確性を優先する。例外は品質レポートで説明する。
-- **PC表示との両立**：`<br>` はPC幅でも固定改行として残る。24文字上限は維持しつつ、短すぎる行の連続や不自然な余白を避ける。公開前にスマホ・PC両方のプレビューを確認し、必要に応じて意味段落や `<br>` の配置を調整する。端末別CSSの自動挿入は必須としない。
-- 公開用HTMLと `article.body_html` は改行位置・段落区切りを一致させる。HTMLソースの改行だけではブラウザ上の改行にならないため、意図した行内改行は `<br>` で表現する。
-- HTMLでは意味のある `<p>` を分け、テーマの段落間余白を基本とする。空の `<p>`、大量の `<br>`、全角空白の連続、不可視文字による余白作成を避ける。CMSで余白を調整する場合は媒体が許容するCSS/ブロック設定を使用し、HTML単体でも読める構造を維持する。
-- 適切な箇所に短い強調を置く。煽り・過剰な共感・体験の捏造・断定の強化は禁止。操作手順・比較・FAQは可読性を優先し、箇条書きや表を残す。
-- `emoji_policy` は `NONE` / `SPARING` / `EXPRESSIVE` の3値。省略・空値・未知値は `NONE`。`NONE` は本文への装飾的絵文字追加なし、`SPARING` は自然な箇所に少数、`EXPRESSIVE` は文脈に合う範囲で比較的積極的に使用する。絵文字は意味・正確性・読み上げやすさを妨げず、タイトル・H見出し・操作コマンド・重要な注意書きには原則入れない。設定が `EXPRESSIVE` でも無理に挿入しない。
-
-## MOBILE_FIRST
-
-- 冒頭で結論と最初の行動を示し、長い説明を意味のまとまりで分割する。
-- 操作手順は原則として1ステップ1操作を意識し、番号・対象画面・確認ポイントを明示する。
-- 幅の広い表は項目別比較や縦方向の説明への置換を検討する。数値比較の正確性は維持する。
-- 画像は小画面での文字の可読性、代替テキスト、前後の説明を重視する。
-
-## DESKTOP_FIRST
-
-- 詳細な比較、複数画面の操作説明、表や図を必要に応じて利用する。
-- 俯瞰と詳細の行き来ができる見出し構成を重視する。ただしスマホでの最低限の可読性は維持する。
-- 詳しさを理由に結論を後回しにしたり、無意味に長文化しない。
-
-## BALANCED
-
-- 結論先行と適切な段落分割を基本に、比較表・図・詳細説明は情報価値に応じて採用する。
-- PCとスマホの双方で内容を失わずに読める構成を優先する。
-
-## Product-specific application
-
-- **aCreator**: 新記事に選択モードを適用する。記事構成・説明・表・画像の提案に反映する。
-- **aWriter**: 既存記事は通常の改善案件で必要性が確認された箇所に限定して適用。閲覧環境の変更のみを理由に全面改稿・見出し一括変更・改善案件の新規起票を行わない。
-- **aDoctor**: 端末上の実際の問題を示す証拠がある場合に限り改善提案。ソース本文・表示確認がなければ断定せず、閲覧環境のみで処置を必須化しない。
-- **SBM**: 設定を紹介状に渡す。変更だけで記事本文・Case・作業状態・モニター予定を変更しない。モニター中の既存サイクルを優先する。
-- **aMerge**: 既存の統合・削除・redirect承認ゲートを変更しない。
-
-## Emoji policy（全閲覧モード共通）
-
-- `emoji_policy` は閲覧モードとは独立したサイト単位の任意設定。`NONE`（初期値） / `SPARING` / `EXPRESSIVE`。
-- 旧紹介状にない場合は `NONE`。本文に絵文字を入れる場合も、事実・操作手順・安全性・サイト文体を優先する。
-- 設定変更だけで既存記事を改稿しない。aCreatorは新記事に適用し、aWriter/aDoctorは既存記事の必要な改善箇所だけで考慮する。
-
-## Backward compatibility and QA
-
-- 旧紹介状にフィールドがない場合は `BALANCED`。不明値は警告可能だが既存ワークフローを停止しない。
-- JSON例: `"reading_device_policy": "MOBILE_FIRST"`。受信側の既存必須フィールドや `publication_gate` 等のスキーマを破壊しない。必要なら依頼文の独立セクションに付記する。
-- 設定変更日と旧値はSBMのサイト設定履歴で扱う。Shared Knowledgeには利用者固有のサイト情報を保存しない。
-- 回帰試験: 4モードと絵文字3値・フィールドなし・未知値・既存好調記事・モニター中記事・横長表・詳細比較を確認する。
+## Existing articles and product boundaries
+The article's recorded style and maximum take precedence over site defaults in Doctor/Writer revisions. Without metadata, preserve the observed style; do not infer MOBILE_STORY from short lines alone. No automatic monitoring reset, case creation, rewriting, or publication. aCreator/Shared rules do not themselves implement the Manager UI or downstream persistence.

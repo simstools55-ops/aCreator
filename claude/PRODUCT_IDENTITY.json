@@ -4,10 +4,11 @@
   "repository_name": "SIMS-Article-Creator-Claude",
   "repository_type": "CLAUDE_PACKAGE",
   "runtime": "CLAUDE_PROJECT",
-  "package_version": "2.0.2",
-  "product_compatibility": "2.0.2",
+  "package_version": "2.1.0",
+  "product_compatibility": "2.1.0",
   "platform_compatibility": "1.x",
-  "shared_version": "3.3.0",
-  "notes": "v2.0.1 Claude deployment consolidation; runtime contracts preserved from 1.7.2. Requires live Claude acceptance testing.",
-  "release_status": "UAT_CANDIDATE"
+  "shared_version": "3.6.5",
+  "notes": "T08 RC9 regression and distribution audits carried forward into v2.1.0 release candidate; independent full HTML byte-match and final production approval remain pending.",
+  "release_status": "RELEASED_WITH_DOCUMENTED_LIMITATION",
+  "current_version": "2.1.0"
 }

@@ -1,1 +1,1 @@
-feat(acreator): support mobile story and emoji preferences (v2.0.5)
+feat(acreator): add MOBILE_STORY 24-character line rule and fix Claude version sync (v2.0.6)

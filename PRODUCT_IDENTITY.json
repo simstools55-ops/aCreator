@@ -6,7 +6,7 @@
   "platform": "SIMS Editorial Platform",
   "platform_compatibility": "1.x",
   "current_version": "2.0.5",
-  "shared_version": "3.6.2",
+  "shared_version": "3.6.3",
   "product_compatibility": "2.0.5",
   "release_status": "UAT_CANDIDATE",
   "notes": "Reading device editorial policy (Shared Knowledge v3.6.2); existing article JSON contracts unchanged."

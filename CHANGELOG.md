@@ -1,3 +1,7 @@
+## v2.0.6
+- MOBILE_STORY 24-character semantic prose lines and HTML line-break QA.
+- Align Claude distribution and JSON product version; Shared Knowledge v3.6.3.
+
 ## v2.0.5 — MOBILE_STORY / emoji_policy
 
 Adds 4th reading mode and independent 3-level emoji preference; output JSON contract unchanged.

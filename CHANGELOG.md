@@ -1,3 +1,8 @@
+## v2.0.4
+- reading_device_policy 3モード対応、未指定時BALANCED。
+- Shared Knowledge v3.6.1の共通基準をClaude配布コンテキストに収録。
+- 新記事のみ適用、既存の出力契約・公開ゲートを維持。
+
 ## v1.7.2 - 2026-08-30
 - Consolidated user-facing naming to aCreator / SIMS Manager; internal contracts unchanged.
 

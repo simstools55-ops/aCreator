@@ -1,3 +1,7 @@
+# SIMS aCreator v2.0.4
+
+Shared Knowledge v3.6.1 閲覧環境別執筆基準対応。配布用ZIPのProject Instructionsと7つのコンテキストをClaudeに登録する。既存記事・JSON出力契約は変更しない。
+
 # aCreator v2.0.0
 
 # aCreator

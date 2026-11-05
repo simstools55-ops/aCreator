@@ -5,9 +5,9 @@
   "repository_type": "PRODUCT",
   "platform": "SIMS Editorial Platform",
   "platform_compatibility": "1.x",
-  "current_version": "2.0.2",
-  "shared_version": "3.3.0",
-  "product_compatibility": "2.0.2",
+  "current_version": "2.0.4",
+  "shared_version": "3.6.1",
+  "product_compatibility": "2.0.4",
   "release_status": "UAT_CANDIDATE",
-  "notes": "v2.0.2 BOS-compatible JSON output gate; based on v2.0.1; Claude acceptance testing pending."
+  "notes": "Reading device editorial policy (Shared Knowledge v3.6.1); existing article JSON contracts unchanged."
 }

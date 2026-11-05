@@ -1,1 +1,1 @@
-feat(acreator): apply reading device editorial policy from Shared Knowledge 3.6.1 (v2.0.4)
+feat(acreator): support mobile story and emoji preferences (v2.0.5)

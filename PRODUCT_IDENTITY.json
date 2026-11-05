@@ -5,9 +5,9 @@
   "repository_type": "PRODUCT",
   "platform": "SIMS Editorial Platform",
   "platform_compatibility": "1.x",
-  "current_version": "2.0.4",
-  "shared_version": "3.6.1",
-  "product_compatibility": "2.0.4",
+  "current_version": "2.0.5",
+  "shared_version": "3.6.2",
+  "product_compatibility": "2.0.5",
   "release_status": "UAT_CANDIDATE",
-  "notes": "Reading device editorial policy (Shared Knowledge v3.6.1); existing article JSON contracts unchanged."
+  "notes": "Reading device editorial policy (Shared Knowledge v3.6.2); existing article JSON contracts unchanged."
 }

@@ -1,3 +1,7 @@
+## v2.0.5 — MOBILE_STORY / emoji_policy
+
+Adds 4th reading mode and independent 3-level emoji preference; output JSON contract unchanged.
+
 ## v2.0.4
 - reading_device_policy 3モード対応、未指定時BALANCED。
 - Shared Knowledge v3.6.1の共通基準をClaude配布コンテキストに収録。

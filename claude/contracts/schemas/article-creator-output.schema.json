@@ -938,6 +938,14 @@
           }
         }
       }
+    },
+    "product_version": {
+      "type": "string",
+      "description": "Current aCreator product version. Required for new v2.0.7 outputs by Project Instructions; optional here for backward compatibility."
+    },
+    "shared_version": {
+      "type": "string",
+      "description": "Current Shared Editorial Knowledge version. Required for new v2.0.7 outputs by Project Instructions; optional here for backward compatibility."
     }
   },
   "allOf": [

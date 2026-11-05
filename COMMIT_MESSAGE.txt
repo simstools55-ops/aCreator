@@ -1,1 +1,1 @@
-feat(acreator): add MOBILE_STORY 24-character line rule and fix Claude version sync (v2.0.6)
+fix(acreator): formalize root version fields and desktop preview guidance (v2.0.7)

@@ -1,6 +1,6 @@
-## v2.0.6
+## v2.0.7
 - MOBILE_STORY 24-character semantic prose lines and HTML line-break QA.
-- Align Claude distribution and JSON product version; Shared Knowledge v3.6.3.
+- Align Claude distribution and JSON product version; Shared Knowledge v3.6.4.
 
 ## v2.0.5 — MOBILE_STORY / emoji_policy
 

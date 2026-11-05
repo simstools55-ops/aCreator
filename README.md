@@ -1,8 +1,8 @@
-## v2.0.6 — MOBILE_STORY / emoji_policy
+## v2.0.7 — MOBILE_STORY / emoji_policy
 
 Adds 4th reading mode and independent 3-level emoji preference; output JSON contract unchanged.
 
-# SIMS aCreator v2.0.6
+# SIMS aCreator v2.0.7
 
 Shared Knowledge v3.6.1 閲覧環境別執筆基準対応。配布用ZIPのProject Instructionsと7つのコンテキストをClaudeに登録する。既存記事・JSON出力契約は変更しない。
 
